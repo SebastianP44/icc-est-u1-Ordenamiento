@@ -2,11 +2,11 @@
 
 Metodo de insercion 
 
-![alt text](evidencias/assets/5.png)
+![alt text](assets/5.png)
 
 Resultado
 
-![alt text](evidencias/assets/6.png)
+![alt text](assets/6.png)
 
 ### Explicacion
 
