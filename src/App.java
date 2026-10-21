@@ -16,6 +16,13 @@ public class App {
         selection.sort(c);
         printArreglo(c);
 
+        //Instanciar insertion
+        System.out.println("-- Insertion Sort --");
+        System.out.println("Original");
+        InsertionSort insertion = new InsertionSort();
+        printArreglo(original);
+        insertion.sort(original);
+        printArreglo(original);
     }
     public static void printArreglo(int[] arr){
         for (int i = 0; i < arr.length; i++)
