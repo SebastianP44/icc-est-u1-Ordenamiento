@@ -5,14 +5,14 @@ public class InsertionSort {
 
             int key = arr[i];
             int j = i -1;
-            while(j >= 0 && arr[j] <= key){
-                System.out.println("El aux = " + arr[i] + " se inserta en pos" + (j));
+            while(j >= 0 && arr[j] < key){
                 arr[j + 1] = arr[j];
                 j--;
             }
             arr[j + 1] = key;
+            System.out.println("El aux = " + key + " se inserta en pos " + (j + 1));
         }
-        
+        System.out.println("Orden Desc");
         
         
     }
